@@ -1,0 +1,29 @@
+{
+  "name": "ECommerceBackEnd",
+  "version": "1.0.0",
+  "description": "Homework Week 13 E-Commerce Back End",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkuebler12/ECommerceBackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkuebler12/ECommerceBackEnd/issues"
+  },
+  "homepage": "https://github.com/tkuebler12/ECommerceBackEnd#readme"
+}
